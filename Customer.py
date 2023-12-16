@@ -7,9 +7,9 @@ class Customer:
     def last_name(self):
         return self.last_name
     def full_name(self):
-        return (f'{self.given_name + self.last_name}')
+        return (f'{self.given_name}') +  (f'{self.last_name}')
     def all_names(self):
         return self.Customer  
 
-
-    
+customer_one = Customer('George', 'Washington')
+print(customer_one.full_name())
