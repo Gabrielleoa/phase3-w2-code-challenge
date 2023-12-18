@@ -1,0 +1,8 @@
+## WEEK 2 PHASE 3 CODE CHALLENGE 
+- Create three files named Reviews, Customer, and restaurant
+- Create classes for each and initialize them
+- create lists for customers, reviews, and restuarants and append new ones into the list when added
+- return the number of reviews given by a particular customer using a class method
+-return thr average rating of a restuarant 
+- write a function that finds a given name using a class method
+-write a fuction that finds the first customer whose name matches a given name using a class method
