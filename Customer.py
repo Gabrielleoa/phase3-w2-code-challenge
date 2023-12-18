@@ -18,12 +18,12 @@ class Customer:
     @classmethod
     def all(cls):
         return cls.customers
-    def num_reviews(self):
-        return
+    def num_reviews(cls, self):
+        return cls.customers()
     def find_by_name(cls, name):
-        return
+        return cls.name
     def find_all_by_given_name(cls, name):
-        return
+        return cls._name
 
 customer_one = Customer('George', 'Washington')
 print(customer_one.full_name())

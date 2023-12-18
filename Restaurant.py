@@ -8,8 +8,8 @@ class Restaurant:
     @classmethod
     def all(cls):
         return cls.restuarants
-    def average_star_rating(self):
-        return
+    def average_star_rating(self, reviews):
+        return restaurant.reviews / len(reviews)
     def customer(self, customer):
         self.customer= customer
         return self.customer
